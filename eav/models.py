@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+git@github.com:RenegadePIM/django-eav.git#!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4 coding=utf-8
 #
 #    This software is derived from EAV-Django originally written and
@@ -79,7 +79,7 @@ class EnumValue(models.Model):
        for both *EnumGroups*.
     '''
     value = models.CharField(_(u"value"), db_index=True,
-                             unique=True, max_length=50)
+                             unique=True, max_length=200)
 
     def __unicode__(self):
         return self.value
