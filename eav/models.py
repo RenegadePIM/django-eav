@@ -1,4 +1,4 @@
-git@github.com:RenegadePIM/django-eav.git#!/usr/bin/env python
+#!/usr/bin/env python
 # vim: ai ts=4 sts=4 et sw=4 coding=utf-8
 #
 #    This software is derived from EAV-Django originally written and
