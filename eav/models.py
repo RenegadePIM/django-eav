@@ -79,7 +79,7 @@ class EnumValue(models.Model):
        for both *EnumGroups*.
     '''
     value = models.CharField(_(u"value"), db_index=True,
-                             unique=True, max_length=500)
+                             unique=True, max_length=255)
 
     def __unicode__(self):
         return self.value
